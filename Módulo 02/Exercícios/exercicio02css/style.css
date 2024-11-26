@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#A67A44,#798C35,#3E5902);
+    background-attachment: fixed;
+    
+    
+
+
+}
+
+
+  
+
+h1, h2{
+    color: white;
+    text-decoration: underline;
+    font: italic 100 2em 'Georgia', serif;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(136, 17, 17);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: violet;
+        }
+
+        .youtube {
+            background-color: rgb(231, 167, 167);
+        }
+
+        .youtube::before {
+            content: '☾';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .youtube::after{
+            content:  '☽';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtu.be/vMlrcOVr7po" target="_blank" class="youtube">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+        <li><a href="https://color.adobe.com/pt/explore?page=2" target="_blank">Adobe Colors</a></li>
+    </ul>
+    
+</body>
+</html>
