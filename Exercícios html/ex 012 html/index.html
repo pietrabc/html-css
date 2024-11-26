@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens & Telas</title>
+</head>
+<body>
+      <h1>Imagem dinâmica</h1>
+      <p>Tente abrir esse site em dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>  
+
+      <picture>
+        <source media="(max-width: 750px )" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
+       <img src="img/img-g.png" alt="Rayan e Georgia">
+      </picture>
+      <h1>Reproduzindo áudio</h1>
+      <p>Vamos aprender a reproduzir áudios em HTML5</p>
+      <audio src="midia/EBONY - 24HRS (Video Oficial).mp3" controls autoplay></audio>
+
+      <h1>Segundo áudio utilizando outro método</h1>
+      <audio preload="metadata" autoplay controls loop>
+        <source src="midia/EBONY - Hentai (Prod. Leo Justi) [Videoclipe Oficial].mp3" type="audio/mpeg">
+        <source src="midia/EBONY - Hentai (Prod. Leo Justi) [Videoclipe Oficial].ogg" type="audio/ogg">
+        <source src="midia/EBONY - Hentai (Prod. Leo Justi) [Videoclipe Oficial].wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/EBONY - Hentai (Prod. Leo Justi) [Videoclipe Oficial].mp3">Clique aqui para baixar o arquivo MP3</a></p>
+      </audio>
+
+      <h1>tentativa de vídeo sozinha</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hoPJEGyUOsU?si=F2codAQV_F0gLeBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <video controls src="midia/Gravação de Tela 2024-09-03 231351.mp4"></video>
+
+     
+
+
+</body>
+</html>
